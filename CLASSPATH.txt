@@ -1,0 +1,11 @@
+C:\MrunalT\Spring_Framework\Spring-assignments>set path=C:\Program Files\Java\jdk1.8.0_121\bin
+
+C:\MrunalT\Spring_Framework\Spring-assignments>cd constructor-javaconfig
+
+C:\MrunalT\Spring_Framework\Spring-assignments\constructor-javaconfig>set CLASSPATH=C:\MrunalT\Spring_Framework\Spring-assignments\libs\*;C:\MrunalT\Spring_Framework\Spring-assignments\constructor-javaconfig\bin;C:\MrunalT\Spring_Framework\Spring-assignments\constructor-javaconfig\src;
+
+C:\MrunalT\Spring_Framework\Spring-assignments\constructor-javaconfig>java com.capgemini.spring.test.Test
+
+
+change folders accordingly in each CLASSPATH otherwise you eill get same output.
+set classpath inside the folder from where you want to run the program. 

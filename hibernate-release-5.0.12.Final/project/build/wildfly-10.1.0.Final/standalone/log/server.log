@@ -1,0 +1,544 @@
+2017-01-19 00:00:23,898 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-01-19 00:00:24,057 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-01-19 00:00:24,114 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-01-19 00:00:24,115 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /home/gbadner/apps/jdk1.8.0_40/jre/lib/endorsed
+	java.ext.dirs = /home/gbadner/apps/jdk1.8.0_40/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /home/gbadner/apps/jdk1.8.0_40/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_40-b26
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_40
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.40-b25
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final
+	jboss.host.name = gbadner1
+	jboss.modules.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/modules
+	jboss.node.name = gbadner1
+	jboss.qualified.host.name = gbadner1.fedora
+	jboss.server.base.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = gbadner1
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.19.8-100.fc20.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /home/gbadner/apps/jdk1.8.0_40/jre/lib/resources.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/rt.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/sunrsasign.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/jsse.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/jce.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/charsets.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/jfr.jar:/home/gbadner/apps/jdk1.8.0_40/jre/classes
+	sun.boot.library.path = /home/gbadner/apps/jdk1.8.0_40/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone -Djboss.server.log.dir=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/log -Djboss.server.config.dir=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/gbadner/git/hibernate-orm-5.0.12/hibernate-core
+	user.home = /home/gbadner
+	user.language = en
+	user.name = gbadner
+	user.timezone = America/New_York
+2017-01-19 00:00:24,115 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -ea -Djboss.home.dir=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final -Dorg.jboss.boot.log.file=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2017-01-19 00:00:25,006 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-01-19 00:00:25,025 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.4.0.Final
+2017-01-19 00:00:25,032 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.4.0.Final
+2017-01-19 00:00:25,055 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-01-19 00:00:25,069 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-01-19 00:00:25,081 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-01-19 00:00:25,081 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-01-19 00:00:25,097 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-01-19 00:00:25,121 INFO  [org.jboss.as.connector] (MSC service thread 1-1) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-01-19 00:00:25,133 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-01-19 00:00:25,259 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-01-19 00:00:25,260 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-01-19 00:00:25,264 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.21.Final
+2017-01-19 00:00:25,273 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-01-19 00:00:25,276 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-01-19 00:00:25,295 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-01-19 00:00:25,302 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2017-01-19 00:00:25,302 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-01-19 00:00:25,394 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2017-01-19 00:00:25,387 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-01-19 00:00:25,403 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2017-01-19 00:00:25,439 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-01-19 00:00:25,439 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-01-19 00:00:25,483 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-01-19 00:00:25,558 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-01-19 00:00:25,648 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-01-19 00:00:25,658 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/deployments
+2017-01-19 00:00:25,761 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-01-19 00:00:25,772 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-01-19 00:00:25,793 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:00:25,794 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:00:25,796 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:00:25,796 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:00:25,797 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:00:25,797 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 64) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:00:25,852 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-01-19 00:00:25,978 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-01-19 00:00:25,979 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-01-19 00:00:25,979 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 2352ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+2017-01-19 00:00:26,807 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/36/b009465d12ff570ae520c6273be9d9922b4605/content
+2017-01-19 00:00:26,826 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "BmtSfStatefulBean.war" (runtime-name: "BmtSfStatefulBean.war")
+2017-01-19 00:00:27,510 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment BmtSfStatefulBean.war
+2017-01-19 00:00:27,555 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.2.4.Final
+2017-01-19 00:00:27,617 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-7) WFLYEJB0473: JNDI bindings for session bean named 'BmtSfStatefulBean' in deployment unit 'deployment "BmtSfStatefulBean.war"' are as follows:
+
+	java:global/BmtSfStatefulBean/BmtSfStatefulBean!org.hibernate.test.wf.ddl.bmt.sf.BmtSfStatefulBean
+	java:app/BmtSfStatefulBean/BmtSfStatefulBean!org.hibernate.test.wf.ddl.bmt.sf.BmtSfStatefulBean
+	java:module/BmtSfStatefulBean!org.hibernate.test.wf.ddl.bmt.sf.BmtSfStatefulBean
+	java:global/BmtSfStatefulBean/BmtSfStatefulBean
+	java:app/BmtSfStatefulBean/BmtSfStatefulBean
+	java:module/BmtSfStatefulBean
+
+2017-01-19 00:00:27,725 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:00:27,726 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 66) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:00:27,762 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.3.5 (Final)
+2017-01-19 00:00:28,017 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-01-19 00:00:28,527 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 10) WFLYUT0021: Registered web context: /BmtSfStatefulBean
+2017-01-19 00:00:28,556 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "BmtSfStatefulBean.war" (runtime-name : "BmtSfStatefulBean.war")
+2017-01-19 00:00:28,963 INFO  [org.hibernate.Version] (default task-1) HHH000412: Hibernate Core {5.2.7.SNAPSHOT}
+2017-01-19 00:00:28,965 INFO  [org.hibernate.cfg.Environment] (default task-1) HHH000206: hibernate.properties not found
+2017-01-19 00:00:29,183 INFO  [org.hibernate.annotations.common.Version] (default task-1) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-01-19 00:00:29,364 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-19 00:00:29,369 WARN  [org.hibernate.dialect.H2Dialect] (default task-1) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-01-19 00:00:29,392 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2017-01-19 00:00:29,687 INFO  [stdout] (default task-1) Hibernate: drop table WildFlyDdlEntity if exists
+2017-01-19 00:00:29,692 INFO  [stdout] (default task-1) Hibernate: create table WildFlyDdlEntity (id integer not null, name varchar(255), primary key (id))
+2017-01-19 00:00:29,693 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (default task-1) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@44baae63'
+2017-01-19 00:00:29,698 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (default task-1) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2017-01-19 00:00:29,699 INFO  [stdout] (default task-1) Hibernate: drop table WildFlyDdlEntity if exists
+2017-01-19 00:00:29,733 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0022: Unregistered web context: /BmtSfStatefulBean
+2017-01-19 00:00:29,784 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 20) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2017-01-19 00:00:29,785 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment BmtSfStatefulBean.war (runtime-name: BmtSfStatefulBean.war) in 62ms
+2017-01-19 00:00:29,796 WARN  [org.jboss.as.controller] (management-handler-thread - 4) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-01-19 00:00:29,799 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/36/b009465d12ff570ae520c6273be9d9922b4605/content
+2017-01-19 00:00:29,799 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0009: Undeployed "BmtSfStatefulBean.war" (runtime-name: "BmtSfStatefulBean.war")
+2017-01-19 00:00:30,352 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/90/07251f43987abca07e260a525924f1a1c64ac5/content
+2017-01-19 00:00:30,355 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "88c586c3-d144-43ac-aed7-57b747652882.war" (runtime-name: "88c586c3-d144-43ac-aed7-57b747652882.war")
+2017-01-19 00:00:30,683 WARN  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0013: Deployment deployment "88c586c3-d144-43ac-aed7-57b747652882.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-01-19 00:00:30,694 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 10) WFLYUT0021: Registered web context: /88c586c3-d144-43ac-aed7-57b747652882
+2017-01-19 00:00:30,701 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "88c586c3-d144-43ac-aed7-57b747652882.war" (runtime-name : "88c586c3-d144-43ac-aed7-57b747652882.war")
+2017-01-19 00:00:30,826 INFO  [org.hibernate.dialect.Dialect] (default task-13) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-19 00:00:30,826 WARN  [org.hibernate.dialect.H2Dialect] (default task-13) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-01-19 00:00:30,831 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-13) Envers integration enabled? : true
+2017-01-19 00:00:30,850 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (default task-13) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@44baae63'
+2017-01-19 00:00:30,851 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (default task-13) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2017-01-19 00:00:30,862 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0022: Unregistered web context: /88c586c3-d144-43ac-aed7-57b747652882
+2017-01-19 00:00:30,874 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment 88c586c3-d144-43ac-aed7-57b747652882.war (runtime-name: 88c586c3-d144-43ac-aed7-57b747652882.war) in 12ms
+2017-01-19 00:00:30,880 WARN  [org.jboss.as.controller] (management-handler-thread - 3) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-01-19 00:00:30,881 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/90/07251f43987abca07e260a525924f1a1c64ac5/content
+2017-01-19 00:00:30,881 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "88c586c3-d144-43ac-aed7-57b747652882.war" (runtime-name: "88c586c3-d144-43ac-aed7-57b747652882.war")
+2017-01-19 00:00:31,401 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/8a/78f8f03c2b51673a9ca06f9aa9aec4b83d825f/content
+2017-01-19 00:00:31,403 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "CmtSfStatefulBean.war" (runtime-name: "CmtSfStatefulBean.war")
+2017-01-19 00:00:31,621 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment CmtSfStatefulBean.war
+2017-01-19 00:00:31,625 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'CmtSfStatefulBean' in deployment unit 'deployment "CmtSfStatefulBean.war"' are as follows:
+
+	java:global/CmtSfStatefulBean/CmtSfStatefulBean!org.hibernate.test.wf.ddl.cmt.sf.CmtSfStatefulBean
+	java:app/CmtSfStatefulBean/CmtSfStatefulBean!org.hibernate.test.wf.ddl.cmt.sf.CmtSfStatefulBean
+	java:module/CmtSfStatefulBean!org.hibernate.test.wf.ddl.cmt.sf.CmtSfStatefulBean
+	java:global/CmtSfStatefulBean/CmtSfStatefulBean
+	java:app/CmtSfStatefulBean/CmtSfStatefulBean
+	java:module/CmtSfStatefulBean
+
+2017-01-19 00:00:31,647 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 10) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:00:31,648 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 10) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:00:31,655 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 10) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-01-19 00:00:31,939 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 17) WFLYUT0021: Registered web context: /CmtSfStatefulBean
+2017-01-19 00:00:31,950 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "CmtSfStatefulBean.war" (runtime-name : "CmtSfStatefulBean.war")
+2017-01-19 00:00:32,108 INFO  [org.hibernate.dialect.Dialect] (default task-15) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-19 00:00:32,109 WARN  [org.hibernate.dialect.H2Dialect] (default task-15) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-01-19 00:00:32,113 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-15) Envers integration enabled? : true
+2017-01-19 00:00:32,126 INFO  [stdout] (default task-15) Hibernate: drop table WildFlyDdlEntity if exists
+2017-01-19 00:00:32,126 INFO  [stdout] (default task-15) Hibernate: create table WildFlyDdlEntity (id integer not null, name varchar(255), primary key (id))
+2017-01-19 00:00:32,128 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (default task-15) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@44baae63'
+2017-01-19 00:00:32,130 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (default task-15) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2017-01-19 00:00:32,131 INFO  [stdout] (default task-15) Hibernate: drop table WildFlyDdlEntity if exists
+2017-01-19 00:00:32,142 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 17) WFLYUT0022: Unregistered web context: /CmtSfStatefulBean
+2017-01-19 00:00:32,161 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 20) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2017-01-19 00:00:32,161 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment CmtSfStatefulBean.war (runtime-name: CmtSfStatefulBean.war) in 19ms
+2017-01-19 00:00:32,169 WARN  [org.jboss.as.controller] (management-handler-thread - 2) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-01-19 00:00:32,170 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/8a/78f8f03c2b51673a9ca06f9aa9aec4b83d825f/content
+2017-01-19 00:00:32,170 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "CmtSfStatefulBean.war" (runtime-name: "CmtSfStatefulBean.war")
+2017-01-19 00:00:32,852 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/f7/230a8a4a421f6dc9d6f2b89fe29aee5557d6cf/content
+2017-01-19 00:00:32,854 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "11e09041-a0ae-4fda-a975-3562495f6582.war" (runtime-name: "11e09041-a0ae-4fda-a975-3562495f6582.war")
+2017-01-19 00:00:33,000 WARN  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0013: Deployment deployment "11e09041-a0ae-4fda-a975-3562495f6582.war" contains CDI annotations but no bean archive was not found. (No beans.xml nor class with bean defining annotations)
+2017-01-19 00:00:33,009 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 17) WFLYUT0021: Registered web context: /11e09041-a0ae-4fda-a975-3562495f6582
+2017-01-19 00:00:33,016 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "11e09041-a0ae-4fda-a975-3562495f6582.war" (runtime-name : "11e09041-a0ae-4fda-a975-3562495f6582.war")
+2017-01-19 00:00:33,113 INFO  [org.hibernate.dialect.Dialect] (default task-18) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-19 00:00:33,114 WARN  [org.hibernate.dialect.H2Dialect] (default task-18) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-01-19 00:00:33,117 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-18) Envers integration enabled? : true
+2017-01-19 00:00:33,129 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (default task-18) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@44baae63'
+2017-01-19 00:00:33,130 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (default task-18) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2017-01-19 00:00:33,138 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 17) WFLYUT0022: Unregistered web context: /11e09041-a0ae-4fda-a975-3562495f6582
+2017-01-19 00:00:33,147 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment 11e09041-a0ae-4fda-a975-3562495f6582.war (runtime-name: 11e09041-a0ae-4fda-a975-3562495f6582.war) in 9ms
+2017-01-19 00:00:33,152 WARN  [org.jboss.as.controller] (management-handler-thread - 1) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-01-19 00:00:33,152 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/f7/230a8a4a421f6dc9d6f2b89fe29aee5557d6cf/content
+2017-01-19 00:00:33,152 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "11e09041-a0ae-4fda-a975-3562495f6582.war" (runtime-name: "11e09041-a0ae-4fda-a975-3562495f6582.war")
+2017-01-19 00:05:05,323 INFO  [org.jboss.as.repository] (management-handler-thread - 5) WFLYDR0001: Content added at location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/04/860da5da734426ebf657b0284a3c30836167a8/content
+2017-01-19 00:05:05,325 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+2017-01-19 00:05:05,463 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for pu-cdi-basic
+2017-01-19 00:05:05,486 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:05,490 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment test.war
+2017-01-19 00:05:05,495 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'NonConversationalEventManager' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/NonConversationalEventManager!org.hibernate.jpa.test.cdi.extended.NonConversationalEventManager
+	java:app/test/NonConversationalEventManager!org.hibernate.jpa.test.cdi.extended.NonConversationalEventManager
+	java:module/NonConversationalEventManager!org.hibernate.jpa.test.cdi.extended.NonConversationalEventManager
+	java:global/test/NonConversationalEventManager
+	java:app/test/NonConversationalEventManager
+	java:module/NonConversationalEventManager
+
+2017-01-19 00:05:05,534 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:05:05,535 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:05:05,541 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-01-19 00:05:05,548 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 70) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:05,550 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 70) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-19 00:05:05,550 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 70) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-01-19 00:05:05,554 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 70) Envers integration enabled? : true
+2017-01-19 00:05:05,579 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 70) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@44baae63'
+2017-01-19 00:05:05,723 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /test
+2017-01-19 00:05:05,730 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+2017-01-19 00:05:05,959 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: /test
+2017-01-19 00:05:05,965 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 70) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:05,965 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 70) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2017-01-19 00:05:05,967 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 70) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:05,972 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 13ms
+2017-01-19 00:05:05,974 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2017-01-19 00:05:05,980 WARN  [org.jboss.as.controller] (management-handler-thread - 7) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-01-19 00:05:05,981 INFO  [org.jboss.as.repository] (management-handler-thread - 7) WFLYDR0002: Content removed from location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/04/860da5da734426ebf657b0284a3c30836167a8/content
+2017-01-19 00:05:05,981 INFO  [org.jboss.as.server] (management-handler-thread - 7) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+2017-01-19 00:05:06,367 INFO  [org.jboss.as.repository] (management-handler-thread - 8) WFLYDR0001: Content added at location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/fa/a4264bba0d885e6b6855abbff3aa8394c1e59b/content
+2017-01-19 00:05:06,369 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+2017-01-19 00:05:06,491 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for pu-cdi-basic
+2017-01-19 00:05:06,499 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 70) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:06,503 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment test.war
+2017-01-19 00:05:06,506 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ConversationalEventManager' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/ConversationalEventManager!org.hibernate.jpa.test.cdi.extended.ConversationalEventManager
+	java:app/test/ConversationalEventManager!org.hibernate.jpa.test.cdi.extended.ConversationalEventManager
+	java:module/ConversationalEventManager!org.hibernate.jpa.test.cdi.extended.ConversationalEventManager
+	java:global/test/ConversationalEventManager
+	java:app/test/ConversationalEventManager
+	java:module/ConversationalEventManager
+
+2017-01-19 00:05:06,527 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:05:06,528 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 70) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:05:06,533 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 70) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-01-19 00:05:06,537 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 70) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:06,538 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 70) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-19 00:05:06,539 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 70) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-01-19 00:05:06,542 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 70) Envers integration enabled? : true
+2017-01-19 00:05:06,557 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 70) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@44baae63'
+2017-01-19 00:05:06,650 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0021: Registered web context: /test
+2017-01-19 00:05:06,657 INFO  [org.jboss.as.server] (management-handler-thread - 8) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+2017-01-19 00:05:06,767 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 71) WFLYUT0022: Unregistered web context: /test
+2017-01-19 00:05:06,774 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:06,778 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 74) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2017-01-19 00:05:06,779 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:06,785 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 18ms
+2017-01-19 00:05:06,787 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2017-01-19 00:05:06,794 WARN  [org.jboss.as.controller] (management-handler-thread - 6) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-01-19 00:05:06,795 INFO  [org.jboss.as.repository] (management-handler-thread - 6) WFLYDR0002: Content removed from location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/fa/a4264bba0d885e6b6855abbff3aa8394c1e59b/content
+2017-01-19 00:05:06,795 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+2017-01-19 00:05:07,346 INFO  [org.jboss.as.repository] (management-handler-thread - 7) WFLYDR0001: Content added at location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/47/43823a52eb54fb6b4997972e714c36137eb920/content
+2017-01-19 00:05:07,348 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+2017-01-19 00:05:07,490 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for pu-cdi-basic
+2017-01-19 00:05:07,499 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:07,503 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment test.war
+2017-01-19 00:05:07,507 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ManualFlushConversationalEventManager' in deployment unit 'deployment "test.war"' are as follows:
+
+	java:global/test/ManualFlushConversationalEventManager!org.hibernate.jpa.test.cdi.extended.ManualFlushConversationalEventManager
+	java:app/test/ManualFlushConversationalEventManager!org.hibernate.jpa.test.cdi.extended.ManualFlushConversationalEventManager
+	java:module/ManualFlushConversationalEventManager!org.hibernate.jpa.test.cdi.extended.ManualFlushConversationalEventManager
+	java:global/test/ManualFlushConversationalEventManager
+	java:app/test/ManualFlushConversationalEventManager
+	java:module/ManualFlushConversationalEventManager
+
+2017-01-19 00:05:07,530 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:05:07,531 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 69) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:05:07,535 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) WFLYCLINF0002: Started client-mappings cache from ejb container
+2017-01-19 00:05:07,540 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:07,541 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 69) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-19 00:05:07,541 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 69) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-01-19 00:05:07,545 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 69) Envers integration enabled? : true
+2017-01-19 00:05:07,561 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 69) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@44baae63'
+2017-01-19 00:05:07,646 WARN  [org.jboss.as.ejb3] (ServerService Thread Pool -- 70) WFLYEJB0463: Invalid transaction attribute type REQUIRED on SFSB lifecycle method Method init() of class class org.hibernate.jpa.test.cdi.extended.ManualFlushConversationalEventManager, valid types are REQUIRES_NEW and NOT_SUPPORTED. Method will be treated as NOT_SUPPORTED.
+2017-01-19 00:05:07,658 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /test
+2017-01-19 00:05:07,664 INFO  [org.jboss.as.server] (management-handler-thread - 7) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+2017-01-19 00:05:07,782 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0022: Unregistered web context: /test
+2017-01-19 00:05:07,787 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:07,788 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 74) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2017-01-19 00:05:07,790 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:07,793 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 73) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2017-01-19 00:05:07,798 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 17ms
+2017-01-19 00:05:07,805 WARN  [org.jboss.as.controller] (management-handler-thread - 5) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-01-19 00:05:07,806 INFO  [org.jboss.as.repository] (management-handler-thread - 5) WFLYDR0002: Content removed from location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/47/43823a52eb54fb6b4997972e714c36137eb920/content
+2017-01-19 00:05:07,806 INFO  [org.jboss.as.server] (management-handler-thread - 5) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+2017-01-19 00:05:08,269 INFO  [org.jboss.as.repository] (management-handler-thread - 6) WFLYDR0001: Content added at location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/58/ef6ac8f012a89a11b43eb522899e990f0d1be0/content
+2017-01-19 00:05:08,271 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "test.war" (runtime-name: "test.war")
+2017-01-19 00:05:08,734 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for pu-cdi-basic
+2017-01-19 00:05:08,742 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:08,745 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment test.war
+2017-01-19 00:05:08,772 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 73) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:08,773 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 73) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-19 00:05:08,773 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 73) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-01-19 00:05:08,775 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 73) Envers integration enabled? : true
+2017-01-19 00:05:08,790 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 73) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@44baae63'
+2017-01-19 00:05:08,877 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 69) Initializing Mojarra 2.2.13.SP1 20160303-1204 for context '/test'
+2017-01-19 00:05:09,148 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0021: Registered web context: /test
+2017-01-19 00:05:09,153 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0010: Deployed "test.war" (runtime-name : "test.war")
+2017-01-19 00:05:09,279 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0022: Unregistered web context: /test
+2017-01-19 00:05:09,284 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:09,284 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 75) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2017-01-19 00:05:09,285 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'test.war#pu-cdi-basic'
+2017-01-19 00:05:09,290 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment test.war (runtime-name: test.war) in 11ms
+2017-01-19 00:05:09,295 WARN  [org.jboss.as.controller] (management-handler-thread - 8) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-01-19 00:05:09,295 INFO  [org.jboss.as.repository] (management-handler-thread - 8) WFLYDR0002: Content removed from location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/58/ef6ac8f012a89a11b43eb522899e990f0d1be0/content
+2017-01-19 00:05:09,295 INFO  [org.jboss.as.server] (management-handler-thread - 8) WFLYSRV0009: Undeployed "test.war" (runtime-name: "test.war")
+2017-01-19 00:05:46,785 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2017-01-19 00:05:46,789 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-01-19 00:05:46,792 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-01-19 00:05:46,794 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2017-01-19 00:05:46,798 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2017-01-19 00:05:46,802 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2017-01-19 00:05:46,803 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-01-19 00:05:46,805 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-01-19 00:05:46,806 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-01-19 00:05:46,814 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 25ms
+2017-01-19 00:08:22,709 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-01-19 00:08:22,894 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-01-19 00:08:22,961 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-01-19 00:08:22,963 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /home/gbadner/apps/jdk1.8.0_40/jre/lib/endorsed
+	java.ext.dirs = /home/gbadner/apps/jdk1.8.0_40/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /home/gbadner/apps/jdk1.8.0_40/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_40-b26
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_40
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.40-b25
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final
+	jboss.host.name = gbadner1
+	jboss.modules.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/modules
+	jboss.node.name = gbadner1
+	jboss.qualified.host.name = gbadner1.fedora
+	jboss.server.base.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = gbadner1
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.19.8-100.fc20.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /home/gbadner/apps/jdk1.8.0_40/jre/lib/resources.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/rt.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/sunrsasign.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/jsse.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/jce.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/charsets.jar:/home/gbadner/apps/jdk1.8.0_40/jre/lib/jfr.jar:/home/gbadner/apps/jdk1.8.0_40/jre/classes
+	sun.boot.library.path = /home/gbadner/apps/jdk1.8.0_40/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/jboss-modules.jar -mp /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final -Djboss.server.base.dir=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone -Djboss.server.log.dir=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/log -Djboss.server.config.dir=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/gbadner/git/hibernate-orm-5.0.12/hibernate-orm-modules
+	user.home = /home/gbadner
+	user.language = en
+	user.name = gbadner
+	user.timezone = America/New_York
+2017-01-19 00:08:22,964 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -ea -Djboss.home.dir=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final -Dorg.jboss.boot.log.file=/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2017-01-19 00:08:23,970 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-01-19 00:08:23,986 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.4.0.Final
+2017-01-19 00:08:23,994 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.4.0.Final
+2017-01-19 00:08:24,018 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-01-19 00:08:24,033 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-01-19 00:08:24,042 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-01-19 00:08:24,061 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-01-19 00:08:24,063 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-01-19 00:08:24,075 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-01-19 00:08:24,082 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-01-19 00:08:24,082 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-01-19 00:08:24,090 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-01-19 00:08:24,099 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-01-19 00:08:24,107 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-01-19 00:08:24,113 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.21.Final
+2017-01-19 00:08:24,226 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2017-01-19 00:08:24,231 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-01-19 00:08:24,236 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-01-19 00:08:24,354 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-01-19 00:08:24,373 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2017-01-19 00:08:24,375 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2017-01-19 00:08:24,377 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-01-19 00:08:24,378 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-01-19 00:08:24,444 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-01-19 00:08:24,538 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-01-19 00:08:24,591 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-01-19 00:08:24,608 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/deployments
+2017-01-19 00:08:24,704 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-01-19 00:08:24,715 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-01-19 00:08:24,746 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:08:24,747 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:08:24,748 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:08:24,749 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:08:24,758 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:08:24,759 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-01-19 00:08:24,789 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-01-19 00:08:24,910 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-01-19 00:08:24,910 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-01-19 00:08:24,911 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 2525ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+2017-01-19 00:08:25,734 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/de/a4dee811c1cbc2f5f5ecbe81da50a579a90889/content
+2017-01-19 00:08:25,748 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "86fc1ced-b967-4fae-9365-697d474ec374.war" (runtime-name: "86fc1ced-b967-4fae-9365-697d474ec374.war")
+2017-01-19 00:08:26,303 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for primary
+2017-01-19 00:08:26,561 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service '86fc1ced-b967-4fae-9365-697d474ec374.war#primary'
+2017-01-19 00:08:26,586 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2017-01-19 00:08:26,590 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment 86fc1ced-b967-4fae-9365-697d474ec374.war
+2017-01-19 00:08:26,647 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.2.4.Final
+2017-01-19 00:08:26,663 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.2.7.SNAPSHOT}
+2017-01-19 00:08:26,664 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2017-01-19 00:08:26,702 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-01-19 00:08:26,838 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.3.5 (Final)
+2017-01-19 00:08:26,990 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service '86fc1ced-b967-4fae-9365-697d474ec374.war#primary'
+2017-01-19 00:08:27,221 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-19 00:08:27,228 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 59) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-01-19 00:08:27,263 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2017-01-19 00:08:28,166 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 59) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3a9f6e33'
+2017-01-19 00:08:28,675 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 6) WFLYUT0021: Registered web context: /86fc1ced-b967-4fae-9365-697d474ec374
+2017-01-19 00:08:28,716 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "86fc1ced-b967-4fae-9365-697d474ec374.war" (runtime-name : "86fc1ced-b967-4fae-9365-697d474ec374.war")
+2017-01-19 00:08:29,261 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-2) HHH000397: Using ASTQueryTranslatorFactory
+2017-01-19 00:08:29,353 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 6) WFLYUT0022: Unregistered web context: /86fc1ced-b967-4fae-9365-697d474ec374
+2017-01-19 00:08:29,368 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service '86fc1ced-b967-4fae-9365-697d474ec374.war#primary'
+2017-01-19 00:08:29,369 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 27) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2017-01-19 00:08:29,379 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service '86fc1ced-b967-4fae-9365-697d474ec374.war#primary'
+2017-01-19 00:08:29,389 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment 86fc1ced-b967-4fae-9365-697d474ec374.war (runtime-name: 86fc1ced-b967-4fae-9365-697d474ec374.war) in 46ms
+2017-01-19 00:08:29,401 WARN  [org.jboss.as.controller] (management-handler-thread - 4) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-01-19 00:08:29,403 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/de/a4dee811c1cbc2f5f5ecbe81da50a579a90889/content
+2017-01-19 00:08:29,404 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0009: Undeployed "86fc1ced-b967-4fae-9365-697d474ec374.war" (runtime-name: "86fc1ced-b967-4fae-9365-697d474ec374.war")
+2017-01-19 00:08:29,944 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/35/ce41ca5256d846e359f8b144a82e79b228f920/content
+2017-01-19 00:08:29,947 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "00de79d4-09a6-4ee4-93b5-c23f73da6f92.war" (runtime-name: "00de79d4-09a6-4ee4-93b5-c23f73da6f92.war")
+2017-01-19 00:08:30,611 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for primary
+2017-01-19 00:08:30,626 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service '00de79d4-09a6-4ee4-93b5-c23f73da6f92.war#primary'
+2017-01-19 00:08:30,627 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 27) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+2017-01-19 00:08:30,631 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment 00de79d4-09a6-4ee4-93b5-c23f73da6f92.war
+2017-01-19 00:08:30,671 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service '00de79d4-09a6-4ee4-93b5-c23f73da6f92.war#primary'
+2017-01-19 00:08:30,672 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 27) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2017-01-19 00:08:30,673 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 27) HHH000431: Unable to determine H2 database version, certain features may not work
+2017-01-19 00:08:30,678 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 27) Envers integration enabled? : true
+2017-01-19 00:08:30,692 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] (ServerService Thread Pool -- 27) HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3a9f6e33'
+2017-01-19 00:08:30,863 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 17) WFLYUT0021: Registered web context: /00de79d4-09a6-4ee4-93b5-c23f73da6f92
+2017-01-19 00:08:30,875 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "00de79d4-09a6-4ee4-93b5-c23f73da6f92.war" (runtime-name : "00de79d4-09a6-4ee4-93b5-c23f73da6f92.war")
+2017-01-19 00:08:31,021 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 17) WFLYUT0022: Unregistered web context: /00de79d4-09a6-4ee4-93b5-c23f73da6f92
+2017-01-19 00:08:31,037 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service '00de79d4-09a6-4ee4-93b5-c23f73da6f92.war#primary'
+2017-01-19 00:08:31,038 INFO  [org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl] (ServerService Thread Pool -- 27) HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2017-01-19 00:08:31,039 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 27) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service '00de79d4-09a6-4ee4-93b5-c23f73da6f92.war#primary'
+2017-01-19 00:08:31,058 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment 00de79d4-09a6-4ee4-93b5-c23f73da6f92.war (runtime-name: 00de79d4-09a6-4ee4-93b5-c23f73da6f92.war) in 37ms
+2017-01-19 00:08:31,068 WARN  [org.jboss.as.controller] (management-handler-thread - 3) WFLYCTL0357: Notification of type deployment-undeployed is not described for the resource at the address []
+2017-01-19 00:08:31,070 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/gbadner/git/hibernate-orm-5.0.12/build/wildfly-10.1.0.Final/standalone/data/content/35/ce41ca5256d846e359f8b144a82e79b228f920/content
+2017-01-19 00:08:31,070 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "00de79d4-09a6-4ee4-93b5-c23f73da6f92.war" (runtime-name: "00de79d4-09a6-4ee4-93b5-c23f73da6f92.war")
+2017-01-19 00:08:31,076 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2017-01-19 00:08:31,087 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2017-01-19 00:08:31,097 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0019: Host default-host stopping
+2017-01-19 00:08:31,097 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0008: Undertow HTTPS listener https suspending
+2017-01-19 00:08:31,098 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2017-01-19 00:08:31,104 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2017-01-19 00:08:31,108 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2017-01-19 00:08:31,108 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2017-01-19 00:08:31,111 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0004: Undertow 1.4.0.Final stopping
+2017-01-19 00:08:31,115 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 32ms
